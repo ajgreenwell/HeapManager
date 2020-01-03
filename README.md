@@ -1,6 +1,8 @@
 # HeapManager
 
 This repository contains two main components:
+
+
     1. An SDK for creating and managing a simulated heap. This is composed of
        a number of functions that can be called to explicitly allocate, free
        and coalesce dynamic memory blocks. See [heap-manager.c](/heap-manager.c)
@@ -14,6 +16,7 @@ This repository contains two main components:
 
 For a quick demonstration of how each of these components function, run the following
 sequences of commands:
+
 
     1. To see the heap manager in action:
 
