@@ -6,7 +6,7 @@ This repository contains two main components:
      a number of functions that can be called to explicitly allocate, free
      and coalesce dynamic memory blocks. See [heap-manager.c](/heap-manager.c)
      for the source code.
-  2. A garbage collector that can automatically detect unused memory on the
+  2. A garbage collector that can automatically detect unused memory on the simulated
      heap and deallocate it appropriately. See [garbage-collector.c](/garbage-collector.c)
      for the source code.
 

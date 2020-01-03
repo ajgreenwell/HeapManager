@@ -63,6 +63,8 @@ void sweep() {
   }
 }
 
+// Uses the Mark & Sweep algorithm to detect and deallocate
+// inaccesible memory blocks on the simulated heap.
 void gc() {
   int **bottomOfStack = (int **) stackBottom();
   int *dummy;
